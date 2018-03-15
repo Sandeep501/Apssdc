@@ -1,0 +1,87 @@
+body
+{
+
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h2
+{
+	color:#ffffff;
+	margin-left: 30px;
+}
+h3
+{
+	font-size:21px;
+}
+h3,h4
+{
+	color: #ffffff;
+}
+div.coloumn
+{
+	max-width:1300px;
+	margin:40px auto 0 auto;
+	line-height: 1.65;
+	padding: 2px 10px;
+	display: flex;
+}
+.flex{
+	display: flex;
+	background: white;
+	border-radius: 10px;
+	flex:3;
+	width: 1000px;
+	height: 500px;
+	align-items: center;
+
+}
+
+
+
+.avatar
+{
+  vertical-align: middle;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  box-shadow: 10px 10px 30px ;
+}
+
+#block
+{
+	background-color: #f1f1f1;
+	border-radius: 10px;
+}
+@media only screen and  (max-width: 500px)  {
+.head{
+	margin-right:15px;
+	color:#f1f1f1;
+}
+    .coloumn
+    {
+    	flex-direction: column;
+
+    }
+    p{
+    	font-size: 17px;
+    }
+		.flex{
+
+			background: white;
+			border-radius: 10px;
+			flex:3;
+			width: 300px;
+			height: 1000px;
+			align-items: center;
+
+		}
+
+div.mobo
+    {
+    	justify-content: center;
+    	text-align: center;
+    }
+
+}
